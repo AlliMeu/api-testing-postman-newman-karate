@@ -81,7 +81,8 @@ config.baseUrl = 'https://jsonplaceholder.typicode.com';
 
 From the karate-tests-project-1 directory: mvn clean test
 
-Karate automatically generates HTML reports: target/karate-reports/karate-summary.html
+Karate automatically generates HTML reports: [docs/karate-reports/karate-summary.html](docs/karate-reports/karate-summary.html)
+
 
 
 These include request/response logs, execution timeline, and detailed scenario results.

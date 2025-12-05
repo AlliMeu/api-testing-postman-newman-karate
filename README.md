@@ -39,12 +39,12 @@ karate-tests/
 
 The Postman collection contains requests for:
 
-GET /posts
-GET /posts/{id}
-GET /users
-GET /comments
-POST /posts
-an error-case request (GET /posts/99999)
+* GET /posts
+* GET /posts/{id}
+* GET /users
+* GET /comments
+* POST /posts
+* an error-case request (GET /posts/99999)
 
 Each request includes tests written in Postman’s scripting interface.
 
@@ -61,8 +61,8 @@ Newman executes the Postman collection through the command line.
 This is useful for CI pipelines or running tests outside Postman UI.
 
 Example command used in the project:
-newman run postman/API_testing_JSONPlaceholder.postman_collection.json \
--e postman/JSONPlaceholder.postman_environment.json
+* newman run postman/API_testing_JSONPlaceholder.postman_collection.json \
+* -e postman/JSONPlaceholder.postman_environment.json
 
 This runs all requests and outputs a clear summary of passes and failures.
 

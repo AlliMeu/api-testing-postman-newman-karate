@@ -7,6 +7,7 @@ Feature: JSONPlaceholder API Tests
     Given path 'posts/1'
     When method get
     Then status 200
+    And match response.id == 1
 
   Scenario: Create a new post
     Given path 'posts'

@@ -2,7 +2,7 @@ package api;
 
 import com.intuit.karate.junit5.Karate;
 
-public class KarateRunner {  // Must be 'public'
+public class KarateTest {  // Must be 'public'
 
     @Karate.Test
     Karate testAll() {
